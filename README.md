@@ -13,6 +13,8 @@ Na pasta ESP, após ter arrumado as variáveis de ambiente(export.sh) faça o se
   3) Utilize o comando ``` idf.py -p <PORTA> flash monitor``` para executar
   4) Utilize o comando ``` idf.py -p <PORTA> erase-flash``` para resetar a memória se necessário
 
+A versão do ESP-IDF utilizada é a 4.4.
+
 ## Uso
 ### Central
 Ao ser executado o servidor central aguarda por uma solicitação de cadastro, após isso todas os comandos são exibidos na tela.
